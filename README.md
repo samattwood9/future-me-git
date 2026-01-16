@@ -26,9 +26,23 @@ In this activity we will track and manage changes to a repository using git. We 
 
     Can you explain the message that is returned after running the command?
 
+   <details>
+       <summary>**Question:** Can you explain the message that is returned after running the command?</summary>
+       
+       **Answer:** The following message should have been displayed after running the command:
+
+       ```
+           fatal: not a git repository (or any of the parent directories): .git
+       ```
+
+       This message is what we're expecting in this case. Running git status doesn't make any sense as we're not currently in a git repository, we're just in a plain folder/directory. Proceed to the next step to turn the folder into a git repository.
+
+       
+   </details>
+
     <br/>
 
-6. Make a repository using the init command:
+7. Make a repository using the init command:
 
     `git init`
 
@@ -42,13 +56,13 @@ In this activity we will track and manage changes to a repository using git. We 
 
     <br/>
 
-7. Lets check the history (versions) of our repository using another command:
+8. Lets check the history (versions) of our repository using another command:
 
     `git log`
 
     <br/>
 
-8. Before we make our first commit. We first need to make a change to the repository. So let's make a new file:
+9. Before we make our first commit. We first need to make a change to the repository. So let's make a new file:
 
     `touch an-empty-file.txt`
 
@@ -56,7 +70,7 @@ In this activity we will track and manage changes to a repository using git. We 
 
     `dir`
 
-9. Now that we have made a change, let's make a commit to record it in the history of the repository:
+10. Now that we have made a change, let's make a commit to record it in the history of the repository:
 
     `git commit`
 
