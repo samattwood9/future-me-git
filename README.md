@@ -24,8 +24,6 @@ In this activity we will track and manage changes to a repository using git. We 
 
     `git status`
 
-    Can you explain the message that is returned after running the command?
-
     <details>
        <summary>Question: Can you explain the message that is returned after running the command?</summary>
        
@@ -49,17 +47,27 @@ In this activity we will track and manage changes to a repository using git. We 
 
     This message means we have successfully created a repository!
 
-    Can you confirm the repository has been created using the status command?
+    <details>
+       <summary>Question: Can you confirm the repository has been created using the status command from the previous step?</summary>
+       
+   **Answer:** Yes. After running git status again, you should see output similar to the following: 
 
-    <br/>
+   ```
+   On branch main
+   No commits yet
+   nothing to commit
+   ```
+   This means the repository has been created. When we're in a git repository, running git status tells us which branch we are on, what's been added to this branch, and what changes haven't yet been added to the branch.</details>
 
-8. Lets check the history (versions) of our repository using another command:
+<br/>
+
+9. Lets check the history (versions) of our repository using another command:
 
     `git log`
 
     <br/>
 
-9. Before we make our first commit. We first need to make a change to the repository. So let's make a new file:
+10. Before we make our first commit. We first need to make a change to the repository. So let's make a new file:
 
     `touch an-empty-file.txt`
 
@@ -67,7 +75,7 @@ In this activity we will track and manage changes to a repository using git. We 
 
     `dir`
 
-10. Now that we have made a change, let's make a commit to record it in the history of the repository:
+11. Now that we have made a change, let's make a commit to record it in the history of the repository:
 
     `git commit`
 
